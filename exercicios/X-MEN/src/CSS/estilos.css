@@ -1,0 +1,65 @@
+body {
+    font-family: Oxanium,cursive ; /*a fonte tudo o que estava no bdoy do site estilizou inclusive ciclope abaixo*/
+    background-color: #000000; /*esta cor é uam hexadecimal dev usou do figma mais no seu projeto pode usar a sua cor */
+    color: #ffffff;/*aqui modigica as cores do texto*/
+}
+
+.cabecalho {
+    display: flex;/* este flex é uma explicação que header é uma tag pai e a img se olhar html é filha e para centralizar img vai colocar just content abaixo que é no header que é pai para centralizar*/
+    background-color: aqua; /* TIRAR DEPOIS dica para ver onde esta mexendo*/ 
+    justify-content: center; /* alinha horizontalmente de acordo com display flex*/
+}
+
+.selecao-de-personagens {
+    background-color: blueviolet; /*TIRAR DEPOIS*/
+    display: flex;
+    align-items: center; /* alinha verticalmente de acordo com display flex*/
+    gap: 30px;
+}
+
+.selecao-de-personagens .lista-de-personagens {
+   display: flex;
+   background-color: brown;
+   flex-wrap: wrap;
+   gap: 30px ;
+   justify-content: center;
+
+}
+
+.selecao-de-personagens .personagens
+{
+    background-color: darkslategrey; /*Tirar*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.selecao-de-personagens .personagens .titulo{
+    font-size: 20px;
+    letter-spacing: 4px; /*espaçamernto entre as letras do selecione personagem*/
+    text-transform: uppercase;
+    border-bottom: 2px solid #47f4ff;/*borda bootom ela coloca só embaixo*/
+    width: 100%; /*essa largura é para borda vai se basear no pai h1  */
+    text-align: center; /*alinhar o texto selecione personagem*/
+}
+
+.lista-de-personagens .personagem img{
+    width: 100%; /*essas poorcentagens são para que as imagens fiquem desfocadas não vai influenciar nas imagens em tamanho*/
+    height: 100%; /*essas poorcentagens são para que as imagens fiquem desfocadas não vai influenciar nas imagens em tamanho*/
+}
+
+.lista-de-personagens .personagem.selecionado{
+    box-shadow: 0px 0px 24px 5px #0271f7;
+}
+
+.personagem-selecionado{
+    background-color: green  ; /*tirar*/
+    text-align: center; /*alinha o texto do cliclope */
+    max-height: 530px;
+}
+.personagem-selecionado .personagem-grande{
+    
+}
+
