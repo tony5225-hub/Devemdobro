@@ -60,6 +60,7 @@ body {
     max-height: 530px;
 }
 .personagem-selecionado .personagem-grande{
-    
+    width: 430px ;
+    height: 430px;
 }
 
