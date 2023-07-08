@@ -4,22 +4,38 @@ body {
     color: #ffffff;/*aqui modigica as cores do texto*/
 }
 
+body::before{ /*este body com dois pontos é para criar antes do body pseudo elemento qué o fundio preto */
+    content: "";
+    background-image: url(../imagens/bg-desktop.jpg) ;/*esses dois pontos é para voltar a pasta que tem antes src para chegar na pasta imagem*/
+    background-repeat: no-repeat;/*para que não repita coloca o no-repeat*/
+    background-size: cover;/*serve para cobrir*/
+    background-position: center;/*posicionar no centro as imagens*/
+    width: 100%;
+    height: 100%;
+    position: absolute;/*ele cria como se fosse camada no site antes das imagens do site*/
+    z-index: -1;/*esse comando traz as imagens para frente que é eixo de profundidade */
+    opacity: 0.2;
+
+}
+
 .cabecalho {
     display: flex;/* este flex é uma explicação que header é uma tag pai e a img se olhar html é filha e para centralizar img vai colocar just content abaixo que é no header que é pai para centralizar*/
-    background-color: aqua; /* TIRAR DEPOIS dica para ver onde esta mexendo*/ 
+    
     justify-content: center; /* alinha horizontalmente de acordo com display flex*/
 }
 
 .selecao-de-personagens {
-    background-color: blueviolet; /*TIRAR DEPOIS*/
+    
     display: flex;
     align-items: center; /* alinha verticalmente de acordo com display flex*/
     gap: 30px;
+    min-height: calc(100vh - 152px) ;/*vh(view/hight) é a visão do seu navegador e 152px é desconto para que navegador n]ão fique com rolagem para cima e baixo*/
+    justify-content: center;/*para centralizar os personagem no navegador*/
 }
 
 .selecao-de-personagens .lista-de-personagens {
    display: flex;
-   background-color: brown;
+   
    flex-wrap: wrap;
    gap: 30px ;
    justify-content: center;
@@ -28,7 +44,7 @@ body {
 
 .selecao-de-personagens .personagens
 {
-    background-color: darkslategrey; /*Tirar*/
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +71,7 @@ body {
 }
 
 .personagem-selecionado{
-    background-color: green  ; /*tirar*/
+    
     text-align: center; /*alinha o texto do cliclope */
     max-height: 530px;
 }
@@ -64,3 +80,16 @@ body {
     height: 430px;
 }
 
+.personagem-selecionado .nome-personagem{
+    border-bottom: 2px solid #47f4ff ;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.personagem-selecionado .descricao-personagem{
+    font-size: 16px; /*todas essas informações de px estão no Figma onde foi orientado a tirar dados pelo dono do site*/
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;/*serve para dar espaço entre texto e titulo*/
+    width: 420px;
+}
