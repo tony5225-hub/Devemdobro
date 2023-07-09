@@ -61,6 +61,10 @@ body::before{ /*este body com dois pontos é para criar antes do body pseudo ele
     text-align: center; /*alinhar o texto selecione personagem*/
 }
 
+.lista-de-personagens .personagem {
+	border-bottom: 4px solid #47f4ff;
+}
+
 .lista-de-personagens .personagem img{
     width: 100%; /*essas poorcentagens são para que as imagens fiquem desfocadas não vai influenciar nas imagens em tamanho*/
     height: 100%; /*essas poorcentagens são para que as imagens fiquem desfocadas não vai influenciar nas imagens em tamanho*/
