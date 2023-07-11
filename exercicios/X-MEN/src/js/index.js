@@ -33,11 +33,11 @@ personagens.forEach ((personagem) =>{
         alterarNomePersonagemSelecionado(personagem); // aqui foi criado função se clicar f12 ele vai mostrar emabixo essa função, que é feito selecionando os dizeres com direito mouse/refatorar / dar a função global.
 
         // passo 4 - alterar a descrição do personagem grande
-        newFunction(personagem);
+        alterarDescricaoPersonagem(personagem);
     })
 })
 
-function newFunction(personagem) {
+function alterarDescricaoPersonagem(personagem) {
     const descricaoPersonagem = document.getElementById('descricao-personagem');
     descricaoPersonagem.innerText = personagem.getAttribute('data-descripton');
 }
