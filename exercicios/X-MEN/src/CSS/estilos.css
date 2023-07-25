@@ -54,7 +54,7 @@ body::before{ /*este body com dois pontos é para criar antes do body pseudo ele
 
 .selecao-de-personagens .personagens .titulo{
     font-size: 20px;
-    letter-spacing: 4px; /*espaçamernto entre as letras do selecione personagem*/
+    letter-spacing: 4px; /*espaçamento entre as letras do selecione personagem*/
     text-transform: uppercase;
     border-bottom: 2px solid #47f4ff;/*borda bootom ela coloca só embaixo*/
     width: 100%; /*essa largura é para borda vai se basear no pai h1  */
