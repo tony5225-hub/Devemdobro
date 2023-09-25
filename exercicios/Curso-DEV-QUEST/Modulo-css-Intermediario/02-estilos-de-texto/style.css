@@ -13,29 +13,29 @@
     text-align: center;
 }
 
-/* .alinhado-justificado {
+.alinhado-justificado {
     text-align: justify;
-} */
+}
 
 /* --------------------------------------------  */
 /* --------------TEXT TRANSFORM----------------  */
 /* --------------------------------------------  */
 
-/* 
-.maiuscula {
+
+.maíusculo {
     text-transform: uppercase;
 }
 
-.minuscula {
+.minúsculo {
     text-transform: lowercase;
 }
 
 .capitalizado {
     text-transform: capitalize;
-} */
+}
 
 /* --------------------------------------------  */
-/* --------------TEXT DECORATION----------------  */
+/* --------------TEXT DECORATION---------------  */
 /* --------------------------------------------  */
 
 /* .sublinhado {
@@ -50,3 +50,48 @@
     text-decoration: none;
 }  */
 
+/* --------------------------------------------  */
+/* --------------LETTER SPACING---------------   */
+/* --------------------------------------------  */
+
+/*.altura-entre-linhas {
+    line-height: 40px;
+ }  */
+
+
+/* -------------------------------------------- */
+/* ------------  SOMBRA NO TEXTO  ------------  */
+/* -------------------------------------------- */
+
+
+/*.Sombra-de-texto {
+   text-shadow: 10px 1px #808080;
+}  */
+
+/* --------------------------------------------  */
+/* -----------------  GERAL -------------------  */
+/* --------------------------------------------  */
+
+.fundo-alinhamento {
+    padding: 20px;
+    background-color: #D1CAE9;
+}
+
+.fundo-transform {
+    padding: 20px;
+    background-color: #C8E6C9;
+}
+
+.fundo-decoration {
+    padding: 20px;
+    background-color: #FFF9C4;
+}
+
+.fundo {
+    padding: 20px;
+    background-color: #CCC;
+}
+
+html {
+    font-size: 24px;
+}
