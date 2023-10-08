@@ -21,8 +21,28 @@ p {
     background-repeat: no-repeat;
     height: 540px;
 }
-/* .bg-repeat {
-    background-repeat: no-repeat;
+
+ .bg-size-cover {
+    background-size: cover;
     height: 540px;
 }
- */
+
+
+ .bg-fixed {
+    background-attachment: fixed;
+    height: 540px;
+}
+
+
+ /* .bg-position {
+    background-position: bottom right;
+    background-repeat:no-repeat;
+    height: 540px;
+} */
+
+ .bg-position {
+    height: 540px;
+    background: #000 url('./images/cat.png') no-repeat right top;
+    
+} 
+    
