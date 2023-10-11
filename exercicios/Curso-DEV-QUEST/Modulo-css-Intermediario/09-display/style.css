@@ -17,12 +17,21 @@ ul{
     width: 100px;
 }
 
-/* .em-linha li{
+.em-linha li{
     display: inline;
     background: aqua;
-} */
+}
 
-/* .em-linha-e-bloco li{
-    display: inline-bloco;
+.em-linha-e-bloco li{
+    display: inline-block;
     background: aqua;
-} */
+    width: 100px;
+    height: 100px;
+}
+
+.esconder {
+    display: none;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
