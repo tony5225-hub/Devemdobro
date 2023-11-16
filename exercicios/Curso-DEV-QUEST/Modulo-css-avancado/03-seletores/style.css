@@ -45,3 +45,11 @@ div > p{
 div + p{
     color:royalblue; 
 }
+
+a[target=_blank]{
+    color: red;
+}
+
+a[href="google.com"]{
+    color: red;
+}
