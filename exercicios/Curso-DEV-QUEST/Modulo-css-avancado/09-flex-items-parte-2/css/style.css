@@ -3,7 +3,16 @@
     flex:0;
 }
 
-.flex-1{
+.flex-1 {
+    flex: 1;
+  }
+
+  /* .flex-1{
+  flex:0 1 100px;
+}
+OBS esta propriedade foi inserida no exercicio anterior o flex para dar efeito na página tem que tirar este comentário e comentar o .flex debaixo para ficar como aparece na aula*/ 
+
+.flex{
     /* flex-grow, flex-shrink, flex-basis */
     flex:0 1 100px;
 }
@@ -17,3 +26,16 @@
 .wrap{
     flex-wrap:wrap;
 }
+
+
+.item.item3{
+    /* order: -1; */
+    order: 1;
+    
+}
+
+/* .item.item2{
+    
+    order: 2;
+    
+} */
