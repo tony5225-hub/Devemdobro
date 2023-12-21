@@ -3,6 +3,7 @@
     display: flex;
     width: 960px;
     max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .flex img{
@@ -12,9 +13,10 @@
 .coluna{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    /* flex: 1; */
     margin: 1em;
-    width: 250px;
+    /* width: 250px; */
+    flex: 0 1 250px;
 }
 
 .botao{
