@@ -1,0 +1,19 @@
+body{
+    background-color: var(--background-color);
+}
+
+.profile-card{
+    max-width: 400px,700px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
