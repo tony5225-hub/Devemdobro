@@ -1,0 +1,38 @@
+body{
+    font-family: "Public Sans", serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 47px;
+    margin-bottom: 100px ;
+
+}
+
+.logo h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu a{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 17px,37px;
+}
