@@ -36,3 +36,29 @@ header{
     font-weight: 400;
     padding: 17px,37px;
 }
+
+.menu a:hover{
+    color: #fff;
+    background-color: #5CC242;
+}
+
+
+.menu .cadastrar{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color:#fff;
+    background-color: #5CC242;
+    border-radius: 8px;
+
+}
+
+.menu .sobre{
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    color:#fff;
+    background-color: #5CC242;
+   
+
+}
