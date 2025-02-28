@@ -28,13 +28,13 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 50px; 
 }
 
 .menu a{
     font-size: 40px;
     font-weight: 400;
-    padding: 17px e 38px;
+    padding: 17px , 37px;
 }
 
 .menu a:hover {
@@ -43,7 +43,7 @@ header{
 }
 
 .menu .cadastrar{
-    padding: 15px;
+    padding: 15px; 
     font-size: 18px;
     font-weight: 300;
     color: #fff;
