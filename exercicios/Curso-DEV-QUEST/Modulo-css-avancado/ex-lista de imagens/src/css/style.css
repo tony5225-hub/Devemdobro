@@ -1,0 +1,19 @@
+html {
+    font-family: "Public Sans", sans-serif;
+    
+  }
+
+ .pinturas .pintura {
+    width: 335px;
+    height: 431px;
+   
+  }
+  
+  
+  .pinturas .pintura .informacoes {
+    position: absolute;
+    background-color: aqua;
+    color: #ffff;
+   
+    
+  }

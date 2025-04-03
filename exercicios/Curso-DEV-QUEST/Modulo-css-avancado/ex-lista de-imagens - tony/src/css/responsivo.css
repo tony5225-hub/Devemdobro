@@ -1,6 +1,5 @@
 section{
     font-family: "Public Sans", serif;
-   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,13 +14,10 @@ section{
     color: #fff;
     padding-top: 10px;
     
-    
 }
 
 .container imagens{
    width: 100%;
-   
-    
    
 }
 
