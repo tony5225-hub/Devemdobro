@@ -1,0 +1,78 @@
+body{
+    background-color: var(--background-color);
+    font-family: "Kumbh Sans", sans-serif;
+     
+}
+    
+
+img{
+  
+    width: 35%;
+    border-radius: 50%;
+    margin-bottom: 30px; 
+    margin-top: 20px;
+   
+}
+
+main{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+   
+}
+.profile-card{
+    text-align: center;
+    border-radius: 10px;
+    width: 330px;
+    max-width: 400px,700px;
+    color: black;
+    background-color: white;
+   
+   
+}
+
+.title-link .title {
+    font-size: 30px;
+    margin: 30px 0 30px;
+    
+}
+
+.title {
+    color: black;
+    text-align: center;
+}
+
+.about{
+    color: gray ;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+.creator{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding: 20px;
+    
+}
+
+.creator .kilometro{
+   color: blueviolet
+   aligncenter
+   
+
+        
+}
+
+
+
+.legend .follow {
+color: gray;
+flex: 100 100;
+text-align: center;
+}

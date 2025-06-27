@@ -1,0 +1,104 @@
+section{
+    font-family: "Public Sans", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.container{
+    
+    width: 340px;
+    margin: auto;
+    position: relative;
+    color: #fff;
+    padding-top: 10px;
+    
+}
+
+.container imagens{
+   width: 100%;
+   
+}
+
+.rome{
+    
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px;
+    bottom: 0;
+    margin-left: -22px;
+    text-align: left;
+    padding: 30px;
+}
+
+.michelangelo{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 300;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 6px;
+}
+
+.boat{
+    
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px;
+    bottom: 0;
+    margin-left: -22px;
+    text-align: left;
+    padding: 30px;
+}
+
+.vincent{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 300;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 6px;
+}  
+
+.sand-and-sea{
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px;
+    bottom: 0;
+    margin-left: -22px;
+    text-align: left;
+    padding: 30px;
+} 
+
+.davinci{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 300;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 6px;
+}  
+
+.starry-night{
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px;
+    bottom: 0;
+    margin-left: -22px;
+    text-align: left;
+    padding: 30px;
+} 
+
+.vincent{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 300;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 6px;
+}  

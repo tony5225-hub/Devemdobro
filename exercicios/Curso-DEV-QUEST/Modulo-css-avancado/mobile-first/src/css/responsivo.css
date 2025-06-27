@@ -1,0 +1,64 @@
+body{
+    font-family: "Public Sans", serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 47px;
+    margin-bottom: 100px ;
+
+}
+
+.logo h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu a{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 17px,37px;
+}
+
+.menu a:hover{
+    color: #fff;
+    background-color: #5CC242;
+}
+
+
+.menu .cadastrar{
+    padding: 10px 21px;;
+    font-size: 15px;
+    font-weight: 300;
+    color:#fff;
+    background-color: #5CC242;
+    border-radius: 8px;
+
+}
+
+.menu .sobre{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff;
+    background-color: #5CC242;
+   
+
+}

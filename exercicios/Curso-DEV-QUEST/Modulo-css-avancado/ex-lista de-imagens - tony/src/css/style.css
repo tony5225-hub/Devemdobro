@@ -1,0 +1,16 @@
+@media(max-width: 1640px){
+
+}
+
+section{
+    margin: auto;
+    width: 1640px;
+    font-family: "Public Sans", serif;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    
+}
+
+
+ 

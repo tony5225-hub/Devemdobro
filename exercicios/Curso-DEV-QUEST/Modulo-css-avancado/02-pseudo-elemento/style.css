@@ -1,0 +1,56 @@
+/* seletor::pseudo-elemento{
+    propriedade:valor;
+} */
+
+
+p::first-letter{
+    color: coral
+}
+
+#paragrafo::first-letter{
+    color: coral;
+}
+
+.first-line::first-line{
+    color: coral;
+}
+
+.first-letter::first-letter{
+    color: coral;
+}
+
+.first-line::first-letter{
+    color: blue;
+}
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+h2::before{
+    content:url(favicon.ico);
+}
+
+h3::before{
+    content:"teste";
+}
+
+h4::before{
+    content:"";
+    background: url(favicon.ico) center center no-repeat; 
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.before::before{
+    content:"";
+    background: url(favicon.ico) center center no-repeat; 
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.after::after{
+    content:url(favicon.ico);
+}
